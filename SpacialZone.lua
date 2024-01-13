@@ -1,23 +1,23 @@
 --------------------------------------------------------------------------------
---              		 Spacial Zone Module System                               --
--- This is a zone class which can be used for hitboxes, safezones, and more   --
--- This module uses spacial queries to detect when a obj enters or exits      -- 
---                                                                            --
--- API:                                                                       --
---   local SpacialZone = require(MODULE PATH)                                 --
---   local NewZone = SpacialZone.new()                                        --
---   NewZone.Touched:Connect(function(hit)                                    --
---   	 print(hit.Name)                                                        --
---   end)                                                                     --
---                                                                            --
---   Hitbox.PlayerExited:Connect(function(plr)                                --
---		 print(plr.Name)                                                        --
---	 end)                                  							     	                --
---                                                    						            --
---                                      									                    --
---                                                                            --
--- Authors:                                                                   --
---   bolzpy | 11/01/2024                        	      					            --
+--              		 Spacial Zone Module System                       
+-- This is a zone class which can be used for hitboxes, safezones, and more  
+-- This module uses spacial queries to detect when a obj enters or exits    
+--                                                                       
+-- API:                                                                  
+--   local SpacialZone = require(MODULE PATH)                        
+--   local NewZone = SpacialZone.new()                                
+--   NewZone.Touched:Connect(function(hit)                              
+--   	 print(hit.Name)                                               
+--   end)                                                                 
+--                                                                       
+--   Hitbox.PlayerExited:Connect(function(plr)                          
+--		 print(plr.Name)                                             
+--	 end)                                  							 
+--                                                    					
+-- 
+--                                                                   
+-- Authors:         
+--   bolzpy | 11/01/2024        
 --------------------------------------------------------------------------------
 
 --!nonstrict
